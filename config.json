@@ -1,0 +1,7 @@
+{
+  "pumpOnTime":  2.25,
+  "pumpOffTime": 60,
+  "pumpOnValue": 500,
+  "checkInterval": 0.1000,
+  "dryRun": false
+}
