@@ -36,10 +36,10 @@ you the ip address when connected to your local network.
 2. pumpOffTime how long should the pump be off to give to ground time to get saturated.
 3. pumpOnValue When the sensovalue is above this value the pump is switched on. Be aware this is the value from the moisture sensor where 0 (although mine gave 200 when in a glass of water) is wet and 1024 is dry.
 4. checkInterval how much time should there be between checks
-5. dryRun: do not switch the pump on(port D5)
+5. dryRun: do not switch the pump on(port D6)
 
 # extra led and dry run
-IF you have a extra led you can connect it to port D6. When the pump is switched on the led will also be switched on. In dry run mode only the led is switched on and not the pump. This is very helpfull since this makes it possible to test without giving your computer water instead of your plants. 
+IF you have a extra led you can connect it to port D7. When the pump is switched on the led will also be switched on. In dry run mode only the led is switched on and not the pump. This is very helpfull since this makes it possible to test without giving your computer water instead of your plants. 
 
 # checking the status of the plant
 http://basihetplantje.local will give you back a json with the current status of the plant
